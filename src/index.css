@@ -1,13 +1,101 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+bodY{
+    background-color: aquamarine;
+}
+.app{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.form > button{
+    align-self: center;
+}
+.table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.trhead,th{
+    border: 2px solid black;
+}
+.th{
+    padding: 4px;
+}
+.bodytr,td{
+    border: 2px solid black;
+}
+td{
+    text-align: center;
+}
+.addbtn{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: blue;
+}
+.viewbtn{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: blue;
+}
+.editbtn{
+    background-color: orange;
+    border-color: orange;
+    border-radius: 10px;
+    padding: 5px;
+}
+.dltbtn{
+    background-color: red;
+    border-color: red;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+.form > input {
+    outline: none;
+    /* border: none; */
+}
+.form > button{
+    background-color: green;
+    border-color: green;
+    color: white;
+    padding: 5px;
+    border-radius: 15px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.editform > input {
+    outline: none;
+    /* border: none; */
+}
+.editform > button{
+    background-color: green;
+    border-color: green;
+    color: white;
+    padding: 5px;
+    border-radius: 15px;
+    align-self: center;
+}
+.editform{
+    display: flex;
+    flex-direction: column;
+}
+.viewbtn1{
+    background-color: green;
+    border-color: green;
+    color: white;
+    padding: 5px;
+    border-radius: 15px;
+    align-self: center;
+    margin-top: 21px;
+}
+.viewdata{
+    display: flex;
+    flex-direction: column;
+
 }
